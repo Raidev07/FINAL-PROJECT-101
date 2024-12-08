@@ -45,23 +45,23 @@
     <!-- course -->
 
     <section class="subject">
-        <div class="main-cs">
+        <div class="main">
             <h1>Bachelor of Science in Information Technology (BSIT)</h1>
         </div>
     </section>
-        <div class="container-cs">
-            <div class="text-cs">
+        <div class="container">
+            <div class="text">
                 <p>Bachelor of Science in Information Technology (BSIT)
                     The BSIT program at Pamantasan ng Lungsod ng Pasig is designed to equip students with the technical skills and knowledge needed to excel in the field of Information Technology. This course focuses on the development, implementation, and management of software applications, networks, and IT systems, preparing graduates for the demands of the digital era.</p>
                 <h2></h2>
             </div>
-            <div class="image-cs">
+            <div class="image">
                 <img src="img/assest/image1.png" alt="Placeholder Image">
             </div>
         </div>
     
-        <div class="container reverse-cs">
-            <div class="image-cs">
+        <div class="container reverse">
+            <div class="image">
                 <img src="img/assest/image2.png" alt="Placeholder Image">
             </div>
             <div class="text">
@@ -70,6 +70,62 @@
                 
             </div>
         </div>      
+
+    <style>
+    .main {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .container {
+        display: flex;
+    align-items: stretch; /* Stretch to make both items the same height */
+        padding: 20px;
+    }
+
+    .image {
+    flex: 0 0 450px; /* Fixed width for the image container */
+        display: flex;
+    align-items: center; /* Center image vertically */
+    justify-content: center; /* Center image horizontally */
+    }
+
+        .image img {
+            max-width: 100%; /* Responsive image */
+            height: auto; /* Maintain aspect ratio */
+            max-height: 100%; /* Ensure image does not exceed container height */
+            border-radius: 20px;
+            box-shadow: 15px 10px 20px black;
+        }
+
+        .text {
+        flex: 11; /* Take up available space */
+        padding-left: 45px; /* Space between image and text */
+            display: flex;
+        flex-direction: column; /* Stack text vertically */
+        justify-content: center; /* Center text vertically */
+        }
+
+        .text p {
+            font-size: 25px;
+        }
+
+        .text h1 {
+            font-size: 35px;
+            margin: 0px;
+        }
+
+        .texts {
+            margin-top: 40px;
+        }
+
+        .texts p {
+            font-size: 25px;
+            font-weight: 600;
+            text-align: justify;
+        }
+    </style>
+
 </body>
 
 </html>

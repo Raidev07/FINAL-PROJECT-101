@@ -43,23 +43,23 @@
     </section>
 
 <!----- Subject ------>
-<section class="subject-cs">
-    <div class="main-cs">
+<section class="subject">
+    <div class="main">
         <h1>Introduction to Computing</h1>
     </div>
 </section>
-    <div class="container-cs">
-        <div class="text-cs">
+    <div class="container">
+        <div class="text">
             <p>This foundational subject provides an overview of the fundamental concepts in computing, preparing students for their journey in the field of Information Technology. Offered at Pamantasan ng Lungsod ng Pasig, the course introduces the basics of computer systems, programming, data management, and the role of technology in solving real-world problems.</p>
             <h2></h2>
         </div>
-        <div class="image-cs">
+        <div class="image">
             <img src="img/assest/image6.png" alt="Placeholder Image">
         </div>
     </div>
 
-    <div class="container reverse-cs">
-        <div class="image-cs">
+    <div class="container reverse">
+        <div class="image">
             <img src="img/assest/image4.png" alt="Placeholder Image">
         </div>
         <div class="text">
@@ -69,20 +69,76 @@
         </div>
     </div>    
 
-    <div class="container-cs">
-        <div class="text-cs">
+    <div class="container">
+        <div class="text">
             <h1>Basic hardware and software components.</h1>
         </div>
-        <div class="image-cs">
+        <div class="image">
             <img src="img/assest/image10.png" alt="Placeholder Image">
         </div>
     </div>
 
-    <div class="container-cs">
+    <div class="container center">
         <div class="texts">
             <p>The subject aims to build a solid understanding of how computers work and their applications in various industries, equipping students with the skills to adapt to the fast-changing tech landscape.</p>
             
         </div>
     </div>    
+
+
+    <style>
+        .main {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+    
+        .container {
+            display: flex;
+        align-items: stretch; /* Stretch to make both items the same height */
+            padding: 20px;
+        }
+    
+        .image {
+        flex: 0 0 450px; /* Fixed width for the image container */
+            display: flex;
+        align-items: center; /* Center image vertically */
+        justify-content: center; /* Center image horizontally */
+        }
+    
+            .image img {
+                max-width: 100%; /* Responsive image */
+                height: auto; /* Maintain aspect ratio */
+                max-height: 100%; /* Ensure image does not exceed container height */
+                border-radius: 20px;
+                box-shadow: 15px 10px 20px black;
+            }
+    
+            .text {
+            flex: 11; /* Take up available space */
+            padding-left: 45px; /* Space between image and text */
+                display: flex;
+            flex-direction: column; /* Stack text vertically */
+            justify-content: center; /* Center text vertically */
+            }
+    
+            .text p {
+                font-size: 25px;
+            }
+    
+            .text h1 {
+                font-size: 35px;
+                margin: 0px;
+            }
+    
+            .texts {
+                margin-top: 40px;
+            }
+    
+            .texts p {
+                font-size: 25px;
+                font-weight: 600;
+                text-align: justify;
+            }
+        </style>
 </body>
 </html>
